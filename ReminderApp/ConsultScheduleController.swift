@@ -42,6 +42,8 @@ class ConsultScheduleController: UIViewController, UITableViewDelegate, UITableV
         self.tabBarController?.selectedIndex = 1
     }
     
+    
+    
 
     func willDidCellLeftSwipeGesture(cell : ScheduleTableViewCell, objectIndex: Int?) {
         showMsgYesNo(title: "Confirme", msg: "Excluir o lembrete?", yesHandler: ({
